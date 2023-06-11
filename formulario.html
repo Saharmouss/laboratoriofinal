@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Formulario de Alta</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    
+    <h1>Formulario de Alta</h1>
+   
+    <form action="registro.php" method="POST">
+        <label for="nombre">Nombre:</label>
+        <input type="text" name="NOMBRE" id="nombre" required>
+    
+        <label for="apellido1">Apellido 1:</label>
+        <input type="text" name="APELLIDO1" id="apellido1" required>
+    
+        <label for="apellido2">Apellido 2:</label>
+        <input type="text" name="APELLIDO2" id="apellido2" required>
+    
+        <label for="email">Email:</label>
+        <input type="email" name="EMAIL" id="email" required>
+    
+        <label for="login">Login:</label>
+        <input type="text" name="LOGIN" id="login" required>
+    
+        <label for="password">Contraseña:</label>
+        <input type="password" name="PASSWORD" id="password" required>
+    
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+</html>
